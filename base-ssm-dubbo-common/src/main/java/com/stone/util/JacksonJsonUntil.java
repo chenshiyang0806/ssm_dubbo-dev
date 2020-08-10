@@ -32,4 +32,9 @@ public class JacksonJsonUntil {
         ObjectMapper mapper = new ObjectMapper();
         return mapper.writeValueAsString(obj);
     }
+    
+    public boolean exites(String name){
+        System.out.println("BBBBBBSFDSFBBB");
+        return false;
+    }
 }
