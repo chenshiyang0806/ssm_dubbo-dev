@@ -38,4 +38,9 @@ public class JacksonJsonUntil {
         System.out.println("AAAAAAAAAAAAAAA");
         return false;
     }
+
+    public boolean exites(String name){
+        System.out.println("BBBBBBSFDSFBBB");
+        return false;
+    }
 }
