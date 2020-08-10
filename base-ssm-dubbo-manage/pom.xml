@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>base-ssm-dubbo-parent</artifactId>
+        <groupId>com.stone</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../base-ssm-dubbo-parent/pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>base-ssm-dubbo-manage</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>ssm-dubbo-manage-pojo</module>
+        <module>ssm-dubbo-manage-dao</module>
+        <module>ssm-dubbo-manage-api</module>
+        <module>ssm-dubbo-manage-service</module>
+    </modules>
+
+    <dependencies>
+        <!--引入对工具类base-ssm-dubbo-common-->
+        <dependency>
+            <groupId>com.stone</groupId>
+            <artifactId>base-ssm-dubbo-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
