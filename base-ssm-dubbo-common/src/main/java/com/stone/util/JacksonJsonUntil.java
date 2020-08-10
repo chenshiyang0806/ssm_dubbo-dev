@@ -39,8 +39,4 @@ public class JacksonJsonUntil {
         return false;
     }
 
-    public boolean exites(String name){
-        System.out.println("BBBBBBSFDSFBBB");
-        return false;
-    }
 }
